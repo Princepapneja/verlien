@@ -1,0 +1,504 @@
+/* common css */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.center {
+  text-align: center;
+}
+.grid {
+  display: grid;
+}
+.mp-4 {
+  margin: 4px;
+  padding: 4px;
+}
+.flex {
+  display: flex;
+}
+.text-white {
+  color: white;
+}
+.btn {
+  padding: 18px 30px;
+  color: white;
+  border: 1px solid white;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.btn2 {
+  padding: 10px 15px;
+  border: 1px solid black;
+  color: black;
+}
+.view_button {
+  justify-content: center;
+  max-width: 100%;
+}
+.j-center {
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  background: transparent;
+}
+a:hover {
+  background-image: linear-gradient(to right, #007c64, #b0977d);
+
+  position: relative;
+  top: -2px;
+}
+
+.gap {
+  gap: 20px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.py-70 {
+  padding: 70px 0;
+}
+.py-130 {
+  padding: 130px 0;
+}
+.f_direction {
+  flex-direction: column;
+}
+/* common css End*/
+
+/* main css */
+.logo {
+  margin: 20px 0;
+}
+.nav_ul {
+  list-style: none;
+  padding: 30px 0;
+}
+.nav_ul li {
+  margin-right: 40px;
+}
+.ul2 {
+  justify-content: end;
+  align-items: center;
+}
+.navbar {
+  grid-template-columns: 1fr auto 1fr;
+  justify-items: center;
+}
+.nav_heading {
+  padding: 30px;
+}
+.main_img {
+  padding: 50px 130px;
+  position: relative;
+  background: url("assests/img/Verlein - AlimaVerlein 26_08_20202206 1.png");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 23px - 84px);
+  height: 100%;
+  align-items: center;
+}
+.main_heading {
+  font-size: 80px;
+  line-height: 120%;
+  margin-bottom: 50px;
+}
+
+.second_para {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  font-size: larger;
+  padding-bottom: 116px;
+  padding-top: 146px;
+}
+.container {
+  position: relative;
+}
+.third_para {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  font-size: larger;
+}
+.spacing {
+  margin-top: 50px;
+}
+.img_container {
+  justify-content: center;
+  gap: 20px;
+}
+
+.first_img {
+  background: url("assests/img/Verlein - AlimaVerlein 26_08_20202107 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  max-width: 380px;
+  width: 100%;
+  height: 660px;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding: 135px 25px;
+}
+.img_para {
+  margin: auto;
+  margin-top: 270px;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 32px;
+  line-height: 140%;
+}
+.second_btn {
+  padding: 16px 20px;
+}
+.second_img {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.img_size {
+  max-width: 380px;
+  width: 100%;
+  height: 329px;
+}
+.text {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background 1s, top 0.5s;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  max-width: 380px;
+  width: 100%;
+  max-height: 329px;
+  height: 100%;
+}
+.hover_image:hover ~ .text {
+  display: flex;
+  position: absolute;
+  top: -2px;
+  background-color: transparent;
+}
+.text:hover {
+  display: flex;
+}
+.third_section {
+  margin: 0 130px;
+  justify-content: center;
+}
+.img_size2 {
+  max-width: 380px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+}
+.image1 {
+  background: url("/assests/img/Verlein - AlimaVerlein 26_08_20202315 1.png");
+  height: 810px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image2 {
+  background: url("/assests/img/Verlein - AlimaVerlein 26_08_20202381 1.png");
+  background-position: center;
+  height: 810px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img3_size {
+  max-width: 380px;
+  width: 100%;
+  height: 500px;
+}
+h3.space {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.img4_size {
+  max-width: 280px;
+  width: 100%;
+  height: 280px;
+}
+.f_logo > img {
+  max-width: 120px;
+  width: 100%;
+  height: 20px;
+}
+
+.f_main {
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1180px;
+  width: 100%;
+  padding-top: 70px;
+  margin: auto;
+}
+.f_list {
+  list-style: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+}
+.logos {
+  margin-top: 42px;
+  gap: 34px;
+}
+footer {
+  margin-bottom: 100px;
+}
+.line {
+  background-color: #d8d8d8;
+  max-width: 1180px;
+  width: 100%;
+  height: 2px;
+  margin: auto;
+}
+.hamburger {
+  display: none;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.r_footer_center {
+  display: none;
+}
+.input {
+  max-width: 280px;
+  width: 100%;
+  border-bottom: 1px solid #d8d8d8;
+  margin: 30px 0;
+  justify-content: space-between;
+}
+.input > input {
+  border: none;
+  outline: none;
+}
+.input > input::placeholder {
+  color: #d8d8d8;
+}
+.arrow {
+  background: url("assests/img/arrow-right-circle.png");
+}
+.r_text {
+  display: none;
+}
+
+/* main css end */
+
+/* media queries */
+@media only screen and (max-width: 1145px) {
+  .d-none {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .logo {
+    margin: 32px 0;
+  }
+
+  footer {
+    padding: 0 25px;
+  }
+  .first_img {
+    height: 500px;
+  }
+  .img_size {
+    height: 249px;
+  }
+  .third_section {
+    margin: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .img_container {
+    flex-direction: column;
+  }
+  .main_heading {
+    font-size: 60px;
+  }
+  .first_img {
+    margin: auto;
+    border-radius: 2px;
+  }
+  .r_d-none {
+    display: none;
+  }
+  .r_footer_center {
+    display: flex;
+    margin: 40px 0;
+    justify-content: space-between;
+  }
+  .f_direction {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .f_main {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 450px) {
+  /* common css   */
+  .pb-32 {
+    padding-bottom: 32px;
+  }
+  .p-0 {
+    padding: 0;
+  }
+  .r_flex {
+    display: flex;
+  }
+
+  /* common css end  */
+  .logo > img {
+    height: 20px;
+  }
+  .hamburger {
+    margin: 3px 0;
+  }
+  .main_heading {
+    text-align: center;
+    font-size: 60px;
+  }
+  .nav_ul li {
+    margin-right: 0px;
+  }
+  .xs {
+    font-size: small;
+  }
+  .main_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 640px;
+  }
+  .second_para {
+    padding: 40px 25px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .img_size {
+    max-width: 158px;
+    width: 100%;
+    height: 158px;
+  }
+  .mx-25 {
+    margin: 0 25px;
+  }
+  .py-80 {
+    padding: 80px 0;
+  }
+  .img_size2 {
+    max-width: 150px;
+    width: 100%;
+  }
+  .hover_image:hover ~ .text {
+    display: none;
+  }
+  .text:hover {
+    display: none;
+  }
+  .h4 {
+    padding-top: 80px;
+  }
+  .third_section {
+    padding-top: 20px;
+  }
+  .image1,
+  .image2 {
+    height: 425px;
+    margin-top: 80px;
+    margin-bottom: 45px;
+  }
+  .para_sec,
+  .shop_fall {
+    padding: 0;
+  }
+  .spacing {
+    margin-top: 30px;
+    font-size: 10px;
+    margin-bottom: 80px;
+  }
+  .j-center {
+    padding: 40px 0px;
+  }
+  .img3_size {
+    height: 360px;
+  }
+
+  h3.space {
+    margin: 20px 0;
+  }
+  .xs {
+    font-size: x-small;
+  }
+  .hamburger {
+    width: 22px;
+    height: 3px;
+    margin: 3px 0;
+  }
+  .nav_ul {
+    padding: 12px 0;
+  }
+  .logo {
+    margin: 17px 0;
+  }
+  .logo > img {
+    height: 10px;
+  }
+  .second_btn {
+    padding: 12px 7px;
+  }
+  .third_para {
+    padding: 0 25px;
+  }
+  .r_text {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    max-width: 150px;
+    width: 100%;
+    height: 13px;
+  }
+  .f_main {
+    padding: 0;
+  }
+  footer {
+    margin-bottom: 46px;
+  }
+  .r-justify {
+    display: flex;
+    justify-content: center;
+  }
+  .third_section {
+    margin: 0 0px;
+  }
+}
