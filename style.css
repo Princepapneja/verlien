@@ -101,7 +101,7 @@ a:hover {
 .main_img {
   padding: 50px 130px;
   position: relative;
-  background: url("assests/img/Verlein - AlimaVerlein 26_08_20202206 1.png");
+  background: url("./assests/img/Verlein - AlimaVerlein 26_08_20202206 1.png");
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +141,7 @@ a:hover {
 }
 
 .first_img {
-  background: url("assests/img/Verlein - AlimaVerlein 26_08_20202107 1.png");
+  background: url("./assests/img/Verlein - AlimaVerlein 26_08_20202107 1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -211,14 +211,14 @@ a:hover {
   height: 100%;
 }
 .image1 {
-  background: url("/assests/img/Verlein - AlimaVerlein 26_08_20202315 1.png");
+  background: url("./assests/img/Verlein - AlimaVerlein 26_08_20202315 1.png");
   height: 810px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .image2 {
-  background: url("/assests/img/Verlein - AlimaVerlein 26_08_20202381 1.png");
+  background: url("./assests/img/Verlein - AlimaVerlein 26_08_20202381 1.png");
   background-position: center;
   height: 810px;
   background-size: cover;
@@ -297,7 +297,7 @@ footer {
   color: #d8d8d8;
 }
 .arrow {
-  background: url("assests/img/arrow-right-circle.png");
+  background: url("./assests/img/arrow-right-circle.png");
 }
 .r_text {
   display: none;
