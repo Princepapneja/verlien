@@ -101,7 +101,7 @@ a:hover {
 .main_img {
   padding: 50px 130px;
   position: relative;
-  background: url("./assests/img/Verlein - AlimaVerlein 26_08_20202206 1.png");
+  background-image: url("./assests/img/Verlein - AlimaVerlein 26_08_20202206 1.png")!important;
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
